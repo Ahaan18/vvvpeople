@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VVV BooV!</title>
+    <link rel="icon" href="http://vvvpeople.com/download.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Add your CSS and JS links here-->
+    <style>
+        body{
+          text-align: center;
+          background-color:black;
+          color:white;
+        }
+      </style>
+  </head>
+  <body>
+  <!--Start code-->
+<h1>Your score:</h1>
+<h4 id='info'></h4>
+<br><br>
+<button onclick="back()" style="background-color:black;">Click here to go back to VVV homepage!!!</button>
+  <!--End code-->
+  </body>
+  <script>
+      getpoint = localStorage.getItem("points");
+      document.getElementById("info").innerHTML = "You got "+getpoint+" answers correct!!!"
+      function back(){
+          window.location = "http://vvvpeople.com/dark-mode";
+      }
+  </script>
+</html>
