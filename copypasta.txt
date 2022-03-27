@@ -1,0 +1,61 @@
+Copt and paste the HTML code below when making a new page:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VVV BooV!</title>
+    <link rel="icon" href="https://ahaan18.github.io/vvvpeople/download.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Add your CSS and JS links here-->
+  </head>
+  <body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand">VVV BooV!</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <!--Add topbar pages here-->
+          </ul>
+      </div>
+
+  </nav>
+  <!--Start code-->
+
+
+  <!--End code-->
+  </body>
+</html>
+
+Add the following code in the <head> tag for Dark mode configuration:
+  <style>
+      body{
+        text-align: center;
+        background-color:black;
+        color:white;
+      }
+    </style>
+
+Add the following code in the <head> tag for Light mode configuration:
+  <style>
+      body{
+        text-align: center;
+      }
+    </style>
+
+Not to be uploaded in the vvvpeople.com file manager. Just for refeance when defining a new page.
+
+The to do list for vvvpeople.com: https://to-do.live.com/tasks/AQMkADAwATM3ZmYAZS0xODVjLTQ0ADU4LTAwAi0wMAoALgAAAwhIyd3Bo5pHjE0JSUQ3DqEBAJx36TlHpClElZdbVcmihBAAAmQfJaMAAAA=
